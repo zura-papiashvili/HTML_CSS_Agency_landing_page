@@ -1,0 +1,65 @@
+body{
+    font-family:'Josefin';
+    font-size: 14px;
+    font-weight: bolder;
+    
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: block;
+    z-index: 100;
+    /* padding: 146px 0 ; */
+    height: 324px; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.logo{
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    background-color: #27DEBF;
+    font-size: 24px;
+    font-weight: bolder;
+
+
+}
+.center{
+    display: flex;
+    align-items: center;
+    
+    justify-content:center;
+}
+header li{
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+header li:last-child{
+    border-right: 0;
+    margin-left: 15px;
+}
+
+
+
+.container{
+    margin: 20px auto;
+    max-width: 1140px;
+    width: 100%;
+    display: block;   
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
